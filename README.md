@@ -13,6 +13,14 @@ For Arm9 series, the output path name is arm9_bin.<br>
 
 Be noted that, you need to modify corss compiler in CMakeFiles.txt.br>
 
+## Project hierarchy
+cmake_example/ <br>
+├── CMakeLists.txt <br>
+└── src <br>
+&emsp;├── func.cpp <br>
+&emsp;├── func.h <br>
+&emsp;└── main.cpp <br>
+
 ## usage
 $ make build<br>
 $ cmake ..<br>
